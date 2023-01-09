@@ -25,20 +25,20 @@ export const routes = [
     redirect: "/web/"
   },
   {
-    name: "v-6eadcaf2",
-    path: "/technology/",
+    name: "v-34b0c870",
+    path: "/ui/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6eadcaf2").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-34b0c870").then(next)
     },
   },
   {
-    path: "/technology/index.html",
-    redirect: "/technology/"
+    path: "/ui/index.html",
+    redirect: "/ui/"
   },
   {
-    path: "/00.目录页/03.技术.html",
-    redirect: "/technology/"
+    path: "/00.目录页/02.页面.html",
+    redirect: "/ui/"
   },
   {
     name: "v-b29c481a",
@@ -57,20 +57,20 @@ export const routes = [
     redirect: "/more/"
   },
   {
-    name: "v-34b0c870",
-    path: "/ui/",
+    name: "v-6eadcaf2",
+    path: "/technology/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-34b0c870").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-6eadcaf2").then(next)
     },
   },
   {
-    path: "/ui/index.html",
-    redirect: "/ui/"
+    path: "/technology/index.html",
+    redirect: "/technology/"
   },
   {
-    path: "/00.目录页/02.页面.html",
-    redirect: "/ui/"
+    path: "/00.目录页/03.技术.html",
+    redirect: "/technology/"
   },
   {
     name: "v-4ba85236",
@@ -121,20 +121,20 @@ export const routes = [
     redirect: "/architecture/"
   },
   {
-    name: "v-5e7059c2",
-    path: "/architecture/softwareArch/",
+    name: "v-67b02b80",
+    path: "/pages/47cf96/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5e7059c2").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-67b02b80").then(next)
     },
   },
   {
-    path: "/architecture/softwareArch/index.html",
-    redirect: "/architecture/softwareArch/"
+    path: "/pages/47cf96/index.html",
+    redirect: "/pages/47cf96/"
   },
   {
-    path: "/11.架构/01.软件架构与需求分析/00.软件架构与需求分析目录.html",
-    redirect: "/architecture/softwareArch/"
+    path: "/06.收藏夹/02.常用的前端轮子.html",
+    redirect: "/pages/47cf96/"
   },
   {
     name: "v-6a4b6be4",
@@ -153,20 +153,36 @@ export const routes = [
     redirect: "/pages/f2e63f/"
   },
   {
-    name: "v-67b02b80",
-    path: "/pages/47cf96/",
+    name: "v-22dd3514",
+    path: "/pages/829589/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-67b02b80").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-22dd3514").then(next)
     },
   },
   {
-    path: "/pages/47cf96/index.html",
-    redirect: "/pages/47cf96/"
+    path: "/pages/829589/index.html",
+    redirect: "/pages/829589/"
   },
   {
-    path: "/06.收藏夹/02.常用的前端轮子.html",
-    redirect: "/pages/47cf96/"
+    path: "/_posts/随笔/我做了一个手写春联小网页，祝大家虎年暴富.html",
+    redirect: "/pages/829589/"
+  },
+  {
+    name: "v-5e7059c2",
+    path: "/architecture/softwareArch/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5e7059c2").then(next)
+    },
+  },
+  {
+    path: "/architecture/softwareArch/index.html",
+    redirect: "/architecture/softwareArch/"
+  },
+  {
+    path: "/11.架构/01.软件架构与需求分析/00.软件架构与需求分析目录.html",
+    redirect: "/architecture/softwareArch/"
   },
   {
     name: "v-0fabea38",
@@ -185,20 +201,16 @@ export const routes = [
     redirect: "/pages/cd8bde/"
   },
   {
-    name: "v-22dd3514",
-    path: "/pages/829589/",
+    name: "v-920f84ea",
+    path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-22dd3514").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-920f84ea").then(next)
     },
   },
   {
-    path: "/pages/829589/index.html",
-    redirect: "/pages/829589/"
-  },
-  {
-    path: "/_posts/随笔/我做了一个手写春联小网页，祝大家虎年暴富.html",
-    redirect: "/pages/829589/"
+    path: "/index.html",
+    redirect: "/"
   },
   {
     name: "v-2d221979",
@@ -247,18 +259,6 @@ export const routes = [
   {
     path: "/内容/01.架构/03.软件架构与需求分析(三).html",
     redirect: "/pages/dbf5e2/"
-  },
-  {
-    name: "v-920f84ea",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-920f84ea").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
   },
   {
     path: '*',

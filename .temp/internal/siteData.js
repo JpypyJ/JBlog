@@ -60,19 +60,19 @@ export const siteData = {
       "lastUpdatedTimestamp": 1654787762000
     },
     {
-      "title": "技术",
+      "title": "页面",
       "frontmatter": {
         "pageComponent": {
           "name": "Catalogue",
           "data": {
-            "path": "03.技术",
-            "imgUrl": "/img/other.png",
-            "description": "技术文档、教程、技巧、总结等文章"
+            "path": "02.页面",
+            "imgUrl": "/img/ui.png",
+            "description": "html(5)/css(3)，前端页面相关技术"
           }
         },
-        "title": "技术",
-        "date": "2020-03-11T21:50:55.000Z",
-        "permalink": "/technology/",
+        "title": "页面",
+        "date": "2020-03-11T21:50:54.000Z",
+        "permalink": "/ui/",
         "sidebar": false,
         "article": false,
         "comment": false,
@@ -82,10 +82,10 @@ export const siteData = {
           "link": "https://github.com/xugaoyi"
         }
       },
-      "regularPath": "/00.%E7%9B%AE%E5%BD%95%E9%A1%B5/03.%E6%8A%80%E6%9C%AF.html",
-      "relativePath": "00.目录页/03.技术.md",
-      "key": "v-6eadcaf2",
-      "path": "/technology/",
+      "regularPath": "/00.%E7%9B%AE%E5%BD%95%E9%A1%B5/02.%E9%A1%B5%E9%9D%A2.html",
+      "relativePath": "00.目录页/02.页面.md",
+      "key": "v-34b0c870",
+      "path": "/ui/",
       "lastUpdated": "2022/06/09, 23:16:02",
       "lastUpdatedTimestamp": 1654787762000
     },
@@ -120,19 +120,19 @@ export const siteData = {
       "lastUpdatedTimestamp": 1654787762000
     },
     {
-      "title": "页面",
+      "title": "技术",
       "frontmatter": {
         "pageComponent": {
           "name": "Catalogue",
           "data": {
-            "path": "02.页面",
-            "imgUrl": "/img/ui.png",
-            "description": "html(5)/css(3)，前端页面相关技术"
+            "path": "03.技术",
+            "imgUrl": "/img/other.png",
+            "description": "技术文档、教程、技巧、总结等文章"
           }
         },
-        "title": "页面",
-        "date": "2020-03-11T21:50:54.000Z",
-        "permalink": "/ui/",
+        "title": "技术",
+        "date": "2020-03-11T21:50:55.000Z",
+        "permalink": "/technology/",
         "sidebar": false,
         "article": false,
         "comment": false,
@@ -142,10 +142,10 @@ export const siteData = {
           "link": "https://github.com/xugaoyi"
         }
       },
-      "regularPath": "/00.%E7%9B%AE%E5%BD%95%E9%A1%B5/02.%E9%A1%B5%E9%9D%A2.html",
-      "relativePath": "00.目录页/02.页面.md",
-      "key": "v-34b0c870",
-      "path": "/ui/",
+      "regularPath": "/00.%E7%9B%AE%E5%BD%95%E9%A1%B5/03.%E6%8A%80%E6%9C%AF.html",
+      "relativePath": "00.目录页/03.技术.md",
+      "key": "v-6eadcaf2",
+      "path": "/technology/",
       "lastUpdated": "2022/06/09, 23:16:02",
       "lastUpdatedTimestamp": 1654787762000
     },
@@ -446,58 +446,9 @@ export const siteData = {
       "regularPath": "/00.%E7%9B%AE%E5%BD%95%E9%A1%B5/05.%E6%9E%B6%E6%9E%84.html",
       "relativePath": "00.目录页/05.架构.md",
       "key": "v-68bd01e0",
-      "path": "/architecture/"
-    },
-    {
-      "title": "架构",
-      "frontmatter": {
-        "pageComponent": {
-          "name": "Catalogue",
-          "data": {
-            "path": "内容/01.架构",
-            "description": "架构之路"
-          }
-        },
-        "title": "架构",
-        "date": "2022-12-20T21:55:53.000Z",
-        "permalink": "/architecture/softwareArch/",
-        "sidebar": false,
-        "article": false,
-        "comment": false,
-        "editLink": false
-      },
-      "regularPath": "/11.%E6%9E%B6%E6%9E%84/01.%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E4%B8%8E%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90/00.%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E4%B8%8E%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90%E7%9B%AE%E5%BD%95.html",
-      "relativePath": "11.架构/01.软件架构与需求分析/00.软件架构与需求分析目录.md",
-      "key": "v-5e7059c2",
-      "path": "/architecture/softwareArch/"
-    },
-    {
-      "title": "你知道的越多，不知道的也就越多",
-      "frontmatter": {
-        "title": "你知道的越多，不知道的也就越多",
-        "date": "2020-05-06T15:52:40.000Z",
-        "permalink": "/pages/f2e63f",
-        "sidebar": "auto",
-        "categories": [
-          "随笔"
-        ],
-        "tags": [
-          "学习",
-          "知识",
-          "鸡汤"
-        ],
-        "author": {
-          "name": "xugaoyi",
-          "link": "https://github.com/xugaoyi"
-        }
-      },
-      "regularPath": "/_posts/%E9%9A%8F%E7%AC%94/%E4%BD%A0%E7%9F%A5%E9%81%93%E7%9A%84%E8%B6%8A%E5%A4%9A%EF%BC%8C%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E4%B9%9F%E5%B0%B1%E8%B6%8A%E5%A4%9A.html",
-      "relativePath": "_posts/随笔/你知道的越多，不知道的也就越多.md",
-      "key": "v-6a4b6be4",
-      "path": "/pages/f2e63f/",
-      "excerpt": "<p>不知道大家有没有发现，我们身边经常有这样的人，他们越是有能力的，越是有知识的，越是低调，越是谦逊，因为他们深知，知道的越多，不知道的也就越多。</p>\n",
-      "lastUpdated": "2021/05/03, 01:04:55",
-      "lastUpdatedTimestamp": 1619975095000
+      "path": "/architecture/",
+      "lastUpdated": "2023/01/09, 12:40:03",
+      "lastUpdatedTimestamp": 1673239203000
     },
     {
       "title": "常用的前端轮子",
@@ -551,16 +502,18 @@ export const siteData = {
       "lastUpdatedTimestamp": 1649745488000
     },
     {
-      "title": "拥抱生活，拥抱快乐",
+      "title": "你知道的越多，不知道的也就越多",
       "frontmatter": {
-        "title": "拥抱生活，拥抱快乐",
-        "date": "2020-06-26T20:40:38.000Z",
-        "permalink": "/pages/cd8bde/",
+        "title": "你知道的越多，不知道的也就越多",
+        "date": "2020-05-06T15:52:40.000Z",
+        "permalink": "/pages/f2e63f",
         "sidebar": "auto",
         "categories": [
           "随笔"
         ],
         "tags": [
+          "学习",
+          "知识",
           "鸡汤"
         ],
         "author": {
@@ -568,13 +521,13 @@ export const siteData = {
           "link": "https://github.com/xugaoyi"
         }
       },
-      "regularPath": "/_posts/%E9%9A%8F%E7%AC%94/%E6%8B%A5%E6%8A%B1%E7%94%9F%E6%B4%BB%EF%BC%8C%E6%8B%A5%E6%8A%B1%E5%BF%AB%E4%B9%90.html",
-      "relativePath": "_posts/随笔/拥抱生活，拥抱快乐.md",
-      "key": "v-0fabea38",
-      "path": "/pages/cd8bde/",
-      "excerpt": "<p>生活在后现代的今天，很多人都有一种虚无感，认为人生没有意义。但是，人生不可能没有意义，因为当你认为没有意义的时候，一定有一个与之相对应的概念叫有意义。</p>\n",
-      "lastUpdated": "2020/08/01, 14:31:12",
-      "lastUpdatedTimestamp": 1596263472000
+      "regularPath": "/_posts/%E9%9A%8F%E7%AC%94/%E4%BD%A0%E7%9F%A5%E9%81%93%E7%9A%84%E8%B6%8A%E5%A4%9A%EF%BC%8C%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E4%B9%9F%E5%B0%B1%E8%B6%8A%E5%A4%9A.html",
+      "relativePath": "_posts/随笔/你知道的越多，不知道的也就越多.md",
+      "key": "v-6a4b6be4",
+      "path": "/pages/f2e63f/",
+      "excerpt": "<p>不知道大家有没有发现，我们身边经常有这样的人，他们越是有能力的，越是有知识的，越是低调，越是谦逊，因为他们深知，知道的越多，不知道的也就越多。</p>\n",
+      "lastUpdated": "2021/05/03, 01:04:55",
+      "lastUpdatedTimestamp": 1619975095000
     },
     {
       "title": "我做了一个手写春联小网页，祝大家虎年暴富",
@@ -624,6 +577,70 @@ export const siteData = {
       "excerpt": "<p>手写春联：<a href=\"https://cl.xugaoyi.com/\" target=\"_blank\" rel=\"noopener noreferrer\">https://cl.xugaoyi.com/<OutboundLink/></a></p>\n<h3 id=\"前言\"><a class=\"header-anchor\" href=\"#前言\">#</a> 前言</h3>\n<p>虎年春节快到了，首先祝大家新年快乐，轻松暴富。\n最近在网上经常看到生成春联的文章，不过这些小demo要么功能简陋,要么UI特别‘程序员’，满足不了我挑剔的眼光。干脆我自己做一个吧，顺便简单体验一下vite+vue3。（因为页面相对简单，vue组件风格还是使用选项式api，重点还是想把产品快速做出来。）</p>\n",
       "lastUpdated": "2022/04/12, 14:38:08",
       "lastUpdatedTimestamp": 1649745488000
+    },
+    {
+      "title": "架构",
+      "frontmatter": {
+        "pageComponent": {
+          "name": "Catalogue",
+          "data": {
+            "path": "内容/01.架构",
+            "description": "架构之路"
+          }
+        },
+        "title": "架构",
+        "date": "2022-12-20T21:55:53.000Z",
+        "permalink": "/architecture/softwareArch/",
+        "sidebar": false,
+        "article": false,
+        "comment": false,
+        "editLink": false
+      },
+      "regularPath": "/11.%E6%9E%B6%E6%9E%84/01.%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E4%B8%8E%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90/00.%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E4%B8%8E%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90%E7%9B%AE%E5%BD%95.html",
+      "relativePath": "11.架构/01.软件架构与需求分析/00.软件架构与需求分析目录.md",
+      "key": "v-5e7059c2",
+      "path": "/architecture/softwareArch/",
+      "lastUpdated": "2023/01/09, 12:40:03",
+      "lastUpdatedTimestamp": 1673239203000
+    },
+    {
+      "title": "拥抱生活，拥抱快乐",
+      "frontmatter": {
+        "title": "拥抱生活，拥抱快乐",
+        "date": "2020-06-26T20:40:38.000Z",
+        "permalink": "/pages/cd8bde/",
+        "sidebar": "auto",
+        "categories": [
+          "随笔"
+        ],
+        "tags": [
+          "鸡汤"
+        ],
+        "author": {
+          "name": "xugaoyi",
+          "link": "https://github.com/xugaoyi"
+        }
+      },
+      "regularPath": "/_posts/%E9%9A%8F%E7%AC%94/%E6%8B%A5%E6%8A%B1%E7%94%9F%E6%B4%BB%EF%BC%8C%E6%8B%A5%E6%8A%B1%E5%BF%AB%E4%B9%90.html",
+      "relativePath": "_posts/随笔/拥抱生活，拥抱快乐.md",
+      "key": "v-0fabea38",
+      "path": "/pages/cd8bde/",
+      "excerpt": "<p>生活在后现代的今天，很多人都有一种虚无感，认为人生没有意义。但是，人生不可能没有意义，因为当你认为没有意义的时候，一定有一个与之相对应的概念叫有意义。</p>\n",
+      "lastUpdated": "2020/08/01, 14:31:12",
+      "lastUpdatedTimestamp": 1596263472000
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "tagline": "二两桃花酿作酒，万杯不及你温柔"
+      },
+      "regularPath": "/",
+      "relativePath": "index.md",
+      "key": "v-920f84ea",
+      "path": "/",
+      "lastUpdated": "2023/01/09, 12:40:03",
+      "lastUpdatedTimestamp": 1673239203000
     },
     {
       "title": "软件架构与需求分析(一)",
@@ -712,7 +729,9 @@ export const siteData = {
           "title": "3.6 部署架构",
           "slug": "_3-6-部署架构"
         }
-      ]
+      ],
+      "lastUpdated": "2023/01/09, 12:40:03",
+      "lastUpdatedTimestamp": 1673239203000
     },
     {
       "title": "软件架构与需求分析(二)",
@@ -766,7 +785,9 @@ export const siteData = {
           "title": "2.3 服务化的问题",
           "slug": "_2-3-服务化的问题"
         }
-      ]
+      ],
+      "lastUpdated": "2023/01/09, 12:40:03",
+      "lastUpdatedTimestamp": 1673239203000
     },
     {
       "title": "软件架构与需求分析(三)",
@@ -885,20 +906,9 @@ export const siteData = {
           "title": "4.6 流程",
           "slug": "_4-6-流程"
         }
-      ]
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "tagline": "二两桃花酿作酒，万杯不及你温柔"
-      },
-      "regularPath": "/",
-      "relativePath": "index.md",
-      "key": "v-920f84ea",
-      "path": "/",
-      "lastUpdated": "2022/04/21, 09:51:06",
-      "lastUpdatedTimestamp": 1650505866000
+      ],
+      "lastUpdated": "2023/01/09, 12:40:03",
+      "lastUpdatedTimestamp": 1673239203000
     }
   ],
   "themeConfig": {
