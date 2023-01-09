@@ -9,22 +9,6 @@ import GlobalLayout from "D:\\GitHub\\vuepress-theme-vdoing\\node_modules\\@vuep
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-34b0c870",
-    path: "/ui/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-34b0c870").then(next)
-    },
-  },
-  {
-    path: "/ui/index.html",
-    redirect: "/ui/"
-  },
-  {
-    path: "/00.目录页/02.页面.html",
-    redirect: "/ui/"
-  },
-  {
     name: "v-61bfb1c1",
     path: "/web/",
     component: GlobalLayout,
@@ -41,20 +25,20 @@ export const routes = [
     redirect: "/web/"
   },
   {
-    name: "v-b29c481a",
-    path: "/more/",
+    name: "v-68bd01e0",
+    path: "/architecture/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-b29c481a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-68bd01e0").then(next)
     },
   },
   {
-    path: "/more/index.html",
-    redirect: "/more/"
+    path: "/architecture/index.html",
+    redirect: "/architecture/"
   },
   {
-    path: "/00.目录页/04.更多.html",
-    redirect: "/more/"
+    path: "/00.目录页/05.架构.html",
+    redirect: "/architecture/"
   },
   {
     name: "v-6eadcaf2",
@@ -73,20 +57,52 @@ export const routes = [
     redirect: "/technology/"
   },
   {
-    name: "v-68bd01e0",
-    path: "/architecture/",
+    name: "v-34b0c870",
+    path: "/ui/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-68bd01e0").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-34b0c870").then(next)
     },
   },
   {
-    path: "/architecture/index.html",
-    redirect: "/architecture/"
+    path: "/ui/index.html",
+    redirect: "/ui/"
   },
   {
-    path: "/00.目录页/05.架构.html",
-    redirect: "/architecture/"
+    path: "/00.目录页/02.页面.html",
+    redirect: "/ui/"
+  },
+  {
+    name: "v-b29c481a",
+    path: "/more/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-b29c481a").then(next)
+    },
+  },
+  {
+    path: "/more/index.html",
+    redirect: "/more/"
+  },
+  {
+    path: "/00.目录页/04.更多.html",
+    redirect: "/more/"
+  },
+  {
+    name: "v-4ba85236",
+    path: "/pages/9a7ee40fc232253e/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4ba85236").then(next)
+    },
+  },
+  {
+    path: "/pages/9a7ee40fc232253e/index.html",
+    redirect: "/pages/9a7ee40fc232253e/"
+  },
+  {
+    path: "/03.技术/01.技术文档/01.Git使用手册.html",
+    redirect: "/pages/9a7ee40fc232253e/"
   },
   {
     name: "v-248e926e",
@@ -137,36 +153,20 @@ export const routes = [
     redirect: "/architecture/softwareArch/"
   },
   {
-    name: "v-4ba85236",
-    path: "/pages/9a7ee40fc232253e/",
+    name: "v-6a4b6be4",
+    path: "/pages/f2e63f/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4ba85236").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-6a4b6be4").then(next)
     },
   },
   {
-    path: "/pages/9a7ee40fc232253e/index.html",
-    redirect: "/pages/9a7ee40fc232253e/"
+    path: "/pages/f2e63f/index.html",
+    redirect: "/pages/f2e63f/"
   },
   {
-    path: "/03.技术/01.技术文档/01.Git使用手册.html",
-    redirect: "/pages/9a7ee40fc232253e/"
-  },
-  {
-    name: "v-22dd3514",
-    path: "/pages/829589/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-22dd3514").then(next)
-    },
-  },
-  {
-    path: "/pages/829589/index.html",
-    redirect: "/pages/829589/"
-  },
-  {
-    path: "/_posts/随笔/我做了一个手写春联小网页，祝大家虎年暴富.html",
-    redirect: "/pages/829589/"
+    path: "/_posts/随笔/你知道的越多，不知道的也就越多.html",
+    redirect: "/pages/f2e63f/"
   },
   {
     name: "v-0fabea38",
@@ -185,20 +185,20 @@ export const routes = [
     redirect: "/pages/cd8bde/"
   },
   {
-    name: "v-6a4b6be4",
-    path: "/pages/f2e63f/",
+    name: "v-22dd3514",
+    path: "/pages/829589/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6a4b6be4").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-22dd3514").then(next)
     },
   },
   {
-    path: "/pages/f2e63f/index.html",
-    redirect: "/pages/f2e63f/"
+    path: "/pages/829589/index.html",
+    redirect: "/pages/829589/"
   },
   {
-    path: "/_posts/随笔/你知道的越多，不知道的也就越多.html",
-    redirect: "/pages/f2e63f/"
+    path: "/_posts/随笔/我做了一个手写春联小网页，祝大家虎年暴富.html",
+    redirect: "/pages/829589/"
   },
   {
     name: "v-920f84ea",

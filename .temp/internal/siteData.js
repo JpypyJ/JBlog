@@ -30,36 +30,6 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "页面",
-      "frontmatter": {
-        "pageComponent": {
-          "name": "Catalogue",
-          "data": {
-            "path": "02.页面",
-            "imgUrl": "/img/ui.png",
-            "description": "html(5)/css(3)，前端页面相关技术"
-          }
-        },
-        "title": "页面",
-        "date": "2020-03-11T21:50:54.000Z",
-        "permalink": "/ui/",
-        "sidebar": false,
-        "article": false,
-        "comment": false,
-        "editLink": false,
-        "author": {
-          "name": "xugaoyi",
-          "link": "https://github.com/xugaoyi"
-        }
-      },
-      "regularPath": "/00.%E7%9B%AE%E5%BD%95%E9%A1%B5/02.%E9%A1%B5%E9%9D%A2.html",
-      "relativePath": "00.目录页/02.页面.md",
-      "key": "v-34b0c870",
-      "path": "/ui/",
-      "lastUpdated": "2022/06/09, 23:16:02",
-      "lastUpdatedTimestamp": 1654787762000
-    },
-    {
       "title": "前端",
       "frontmatter": {
         "pageComponent": {
@@ -86,6 +56,92 @@ export const siteData = {
       "relativePath": "00.目录页/01.前端.md",
       "key": "v-61bfb1c1",
       "path": "/web/",
+      "lastUpdated": "2022/06/09, 23:16:02",
+      "lastUpdatedTimestamp": 1654787762000
+    },
+    {
+      "title": "架构",
+      "frontmatter": {
+        "pageComponent": {
+          "name": "Catalogue",
+          "data": {
+            "path": "11.架构",
+            "imgUrl": "/img/web.png",
+            "description": "架构之路"
+          }
+        },
+        "title": "架构",
+        "date": "2022-12-20T21:55:53.000Z",
+        "permalink": "/architecture/",
+        "sidebar": false,
+        "article": false,
+        "comment": false,
+        "editLink": false
+      },
+      "regularPath": "/00.%E7%9B%AE%E5%BD%95%E9%A1%B5/05.%E6%9E%B6%E6%9E%84.html",
+      "relativePath": "00.目录页/05.架构.md",
+      "key": "v-68bd01e0",
+      "path": "/architecture/",
+      "lastUpdated": "2023/01/09, 12:40:03",
+      "lastUpdatedTimestamp": 1673239203000
+    },
+    {
+      "title": "技术",
+      "frontmatter": {
+        "pageComponent": {
+          "name": "Catalogue",
+          "data": {
+            "path": "03.技术",
+            "imgUrl": "/img/other.png",
+            "description": "技术文档、教程、技巧、总结等文章"
+          }
+        },
+        "title": "技术",
+        "date": "2020-03-11T21:50:55.000Z",
+        "permalink": "/technology/",
+        "sidebar": false,
+        "article": false,
+        "comment": false,
+        "editLink": false,
+        "author": {
+          "name": "xugaoyi",
+          "link": "https://github.com/xugaoyi"
+        }
+      },
+      "regularPath": "/00.%E7%9B%AE%E5%BD%95%E9%A1%B5/03.%E6%8A%80%E6%9C%AF.html",
+      "relativePath": "00.目录页/03.技术.md",
+      "key": "v-6eadcaf2",
+      "path": "/technology/",
+      "lastUpdated": "2022/06/09, 23:16:02",
+      "lastUpdatedTimestamp": 1654787762000
+    },
+    {
+      "title": "页面",
+      "frontmatter": {
+        "pageComponent": {
+          "name": "Catalogue",
+          "data": {
+            "path": "02.页面",
+            "imgUrl": "/img/ui.png",
+            "description": "html(5)/css(3)，前端页面相关技术"
+          }
+        },
+        "title": "页面",
+        "date": "2020-03-11T21:50:54.000Z",
+        "permalink": "/ui/",
+        "sidebar": false,
+        "article": false,
+        "comment": false,
+        "editLink": false,
+        "author": {
+          "name": "xugaoyi",
+          "link": "https://github.com/xugaoyi"
+        }
+      },
+      "regularPath": "/00.%E7%9B%AE%E5%BD%95%E9%A1%B5/02.%E9%A1%B5%E9%9D%A2.html",
+      "relativePath": "00.目录页/02.页面.md",
+      "key": "v-34b0c870",
+      "path": "/ui/",
       "lastUpdated": "2022/06/09, 23:16:02",
       "lastUpdatedTimestamp": 1654787762000
     },
@@ -120,60 +176,72 @@ export const siteData = {
       "lastUpdatedTimestamp": 1654787762000
     },
     {
-      "title": "技术",
+      "title": "Git使用手册",
       "frontmatter": {
-        "pageComponent": {
-          "name": "Catalogue",
-          "data": {
-            "path": "03.技术",
-            "imgUrl": "/img/other.png",
-            "description": "技术文档、教程、技巧、总结等文章"
-          }
-        },
-        "title": "技术",
-        "date": "2020-03-11T21:50:55.000Z",
-        "permalink": "/technology/",
-        "sidebar": false,
-        "article": false,
-        "comment": false,
-        "editLink": false,
+        "title": "Git使用手册",
+        "date": "2019-12-25T14:27:01.000Z",
+        "permalink": "/pages/9a7ee40fc232253e",
+        "categories": [
+          "技术",
+          "技术文档"
+        ],
+        "tags": [
+          null
+        ],
         "author": {
           "name": "xugaoyi",
           "link": "https://github.com/xugaoyi"
         }
       },
-      "regularPath": "/00.%E7%9B%AE%E5%BD%95%E9%A1%B5/03.%E6%8A%80%E6%9C%AF.html",
-      "relativePath": "00.目录页/03.技术.md",
-      "key": "v-6eadcaf2",
-      "path": "/technology/",
-      "lastUpdated": "2022/06/09, 23:16:02",
-      "lastUpdatedTimestamp": 1654787762000
-    },
-    {
-      "title": "架构",
-      "frontmatter": {
-        "pageComponent": {
-          "name": "Catalogue",
-          "data": {
-            "path": "11.架构",
-            "imgUrl": "/img/web.png",
-            "description": "架构之路"
-          }
+      "regularPath": "/03.%E6%8A%80%E6%9C%AF/01.%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/01.Git%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.html",
+      "relativePath": "03.技术/01.技术文档/01.Git使用手册.md",
+      "key": "v-4ba85236",
+      "path": "/pages/9a7ee40fc232253e/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "安装",
+          "slug": "安装"
         },
-        "title": "架构",
-        "date": "2022-12-20T21:55:53.000Z",
-        "permalink": "/architecture/",
-        "sidebar": false,
-        "article": false,
-        "comment": false,
-        "editLink": false
-      },
-      "regularPath": "/00.%E7%9B%AE%E5%BD%95%E9%A1%B5/05.%E6%9E%B6%E6%9E%84.html",
-      "relativePath": "00.目录页/05.架构.md",
-      "key": "v-68bd01e0",
-      "path": "/architecture/",
-      "lastUpdated": "2023/01/09, 12:40:03",
-      "lastUpdatedTimestamp": 1673239203000
+        {
+          "level": 2,
+          "title": "创建版本库（仓库）",
+          "slug": "创建版本库-仓库"
+        },
+        {
+          "level": 2,
+          "title": "添加文件到仓库",
+          "slug": "添加文件到仓库"
+        },
+        {
+          "level": 2,
+          "title": "版本管理",
+          "slug": "版本管理"
+        },
+        {
+          "level": 2,
+          "title": "远程仓库",
+          "slug": "远程仓库"
+        },
+        {
+          "level": 2,
+          "title": "分支管理",
+          "slug": "分支管理"
+        },
+        {
+          "level": 2,
+          "title": "帮助命令",
+          "slug": "帮助命令"
+        },
+        {
+          "level": 2,
+          "title": "参考文档",
+          "slug": "参考文档"
+        }
+      ],
+      "excerpt": "<h1 id=\"git使用手册\"><a class=\"header-anchor\" href=\"#git使用手册\">#</a> Git使用手册</h1>\n<h2 id=\"安装\"><a class=\"header-anchor\" href=\"#安装\">#</a> 安装</h2>\n<p>官网下载：<a href=\"https://git-scm.com/downloads\" target=\"_blank\" rel=\"noopener noreferrer\">https://git-scm.com/downloads<OutboundLink/></a> 下载完成后使用默认进行安装。</p>\n<p>安装完成后，在开始菜单里找到 <code>Git</code> -&gt; <code>Git Bash</code>，蹦出一个类似命令行窗口的东西，就说明Git安装成功！\n还需要最后一步设置，在命令行输入：</p>\n<!--beforebegin--><div class=\"language-bash extra-class\"><!--afterbegin--><pre v-pre class=\"language-bash\"><code><span class=\"token function\">git</span> config <span class=\"token parameter variable\">--global</span> user.name <span class=\"token string\">\"Your Name\"</span>\n<span class=\"token function\">git</span> config <span class=\"token parameter variable\">--global</span> user.email <span class=\"token string\">\"email@example.com\"</span>\n</code></pre>\n<!--beforeend--></div><!--afterend--><p>因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址。</p>\n",
+      "lastUpdated": "2020/08/01, 14:31:12",
+      "lastUpdatedTimestamp": 1596263472000
     },
     {
       "title": "网站",
@@ -459,70 +527,56 @@ export const siteData = {
       "lastUpdatedTimestamp": 1673239203000
     },
     {
-      "title": "Git使用手册",
+      "title": "你知道的越多，不知道的也就越多",
       "frontmatter": {
-        "title": "Git使用手册",
-        "date": "2019-12-25T14:27:01.000Z",
-        "permalink": "/pages/9a7ee40fc232253e",
+        "title": "你知道的越多，不知道的也就越多",
+        "date": "2020-05-06T15:52:40.000Z",
+        "permalink": "/pages/f2e63f",
+        "sidebar": "auto",
         "categories": [
-          "技术",
-          "技术文档"
+          "随笔"
         ],
         "tags": [
-          null
+          "学习",
+          "知识",
+          "鸡汤"
         ],
         "author": {
           "name": "xugaoyi",
           "link": "https://github.com/xugaoyi"
         }
       },
-      "regularPath": "/03.%E6%8A%80%E6%9C%AF/01.%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/01.Git%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.html",
-      "relativePath": "03.技术/01.技术文档/01.Git使用手册.md",
-      "key": "v-4ba85236",
-      "path": "/pages/9a7ee40fc232253e/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "安装",
-          "slug": "安装"
-        },
-        {
-          "level": 2,
-          "title": "创建版本库（仓库）",
-          "slug": "创建版本库-仓库"
-        },
-        {
-          "level": 2,
-          "title": "添加文件到仓库",
-          "slug": "添加文件到仓库"
-        },
-        {
-          "level": 2,
-          "title": "版本管理",
-          "slug": "版本管理"
-        },
-        {
-          "level": 2,
-          "title": "远程仓库",
-          "slug": "远程仓库"
-        },
-        {
-          "level": 2,
-          "title": "分支管理",
-          "slug": "分支管理"
-        },
-        {
-          "level": 2,
-          "title": "帮助命令",
-          "slug": "帮助命令"
-        },
-        {
-          "level": 2,
-          "title": "参考文档",
-          "slug": "参考文档"
+      "regularPath": "/_posts/%E9%9A%8F%E7%AC%94/%E4%BD%A0%E7%9F%A5%E9%81%93%E7%9A%84%E8%B6%8A%E5%A4%9A%EF%BC%8C%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E4%B9%9F%E5%B0%B1%E8%B6%8A%E5%A4%9A.html",
+      "relativePath": "_posts/随笔/你知道的越多，不知道的也就越多.md",
+      "key": "v-6a4b6be4",
+      "path": "/pages/f2e63f/",
+      "excerpt": "<p>不知道大家有没有发现，我们身边经常有这样的人，他们越是有能力的，越是有知识的，越是低调，越是谦逊，因为他们深知，知道的越多，不知道的也就越多。</p>\n",
+      "lastUpdated": "2021/05/03, 01:04:55",
+      "lastUpdatedTimestamp": 1619975095000
+    },
+    {
+      "title": "拥抱生活，拥抱快乐",
+      "frontmatter": {
+        "title": "拥抱生活，拥抱快乐",
+        "date": "2020-06-26T20:40:38.000Z",
+        "permalink": "/pages/cd8bde/",
+        "sidebar": "auto",
+        "categories": [
+          "随笔"
+        ],
+        "tags": [
+          "鸡汤"
+        ],
+        "author": {
+          "name": "xugaoyi",
+          "link": "https://github.com/xugaoyi"
         }
-      ],
-      "excerpt": "<h1 id=\"git使用手册\"><a class=\"header-anchor\" href=\"#git使用手册\">#</a> Git使用手册</h1>\n<h2 id=\"安装\"><a class=\"header-anchor\" href=\"#安装\">#</a> 安装</h2>\n<p>官网下载：<a href=\"https://git-scm.com/downloads\" target=\"_blank\" rel=\"noopener noreferrer\">https://git-scm.com/downloads<OutboundLink/></a> 下载完成后使用默认进行安装。</p>\n<p>安装完成后，在开始菜单里找到 <code>Git</code> -&gt; <code>Git Bash</code>，蹦出一个类似命令行窗口的东西，就说明Git安装成功！\n还需要最后一步设置，在命令行输入：</p>\n<!--beforebegin--><div class=\"language-bash extra-class\"><!--afterbegin--><pre v-pre class=\"language-bash\"><code><span class=\"token function\">git</span> config <span class=\"token parameter variable\">--global</span> user.name <span class=\"token string\">\"Your Name\"</span>\n<span class=\"token function\">git</span> config <span class=\"token parameter variable\">--global</span> user.email <span class=\"token string\">\"email@example.com\"</span>\n</code></pre>\n<!--beforeend--></div><!--afterend--><p>因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址。</p>\n",
+      },
+      "regularPath": "/_posts/%E9%9A%8F%E7%AC%94/%E6%8B%A5%E6%8A%B1%E7%94%9F%E6%B4%BB%EF%BC%8C%E6%8B%A5%E6%8A%B1%E5%BF%AB%E4%B9%90.html",
+      "relativePath": "_posts/随笔/拥抱生活，拥抱快乐.md",
+      "key": "v-0fabea38",
+      "path": "/pages/cd8bde/",
+      "excerpt": "<p>生活在后现代的今天，很多人都有一种虚无感，认为人生没有意义。但是，人生不可能没有意义，因为当你认为没有意义的时候，一定有一个与之相对应的概念叫有意义。</p>\n",
       "lastUpdated": "2020/08/01, 14:31:12",
       "lastUpdatedTimestamp": 1596263472000
     },
@@ -574,60 +628,6 @@ export const siteData = {
       "excerpt": "<p>手写春联：<a href=\"https://cl.xugaoyi.com/\" target=\"_blank\" rel=\"noopener noreferrer\">https://cl.xugaoyi.com/<OutboundLink/></a></p>\n<h3 id=\"前言\"><a class=\"header-anchor\" href=\"#前言\">#</a> 前言</h3>\n<p>虎年春节快到了，首先祝大家新年快乐，轻松暴富。\n最近在网上经常看到生成春联的文章，不过这些小demo要么功能简陋,要么UI特别‘程序员’，满足不了我挑剔的眼光。干脆我自己做一个吧，顺便简单体验一下vite+vue3。（因为页面相对简单，vue组件风格还是使用选项式api，重点还是想把产品快速做出来。）</p>\n",
       "lastUpdated": "2022/04/12, 14:38:08",
       "lastUpdatedTimestamp": 1649745488000
-    },
-    {
-      "title": "拥抱生活，拥抱快乐",
-      "frontmatter": {
-        "title": "拥抱生活，拥抱快乐",
-        "date": "2020-06-26T20:40:38.000Z",
-        "permalink": "/pages/cd8bde/",
-        "sidebar": "auto",
-        "categories": [
-          "随笔"
-        ],
-        "tags": [
-          "鸡汤"
-        ],
-        "author": {
-          "name": "xugaoyi",
-          "link": "https://github.com/xugaoyi"
-        }
-      },
-      "regularPath": "/_posts/%E9%9A%8F%E7%AC%94/%E6%8B%A5%E6%8A%B1%E7%94%9F%E6%B4%BB%EF%BC%8C%E6%8B%A5%E6%8A%B1%E5%BF%AB%E4%B9%90.html",
-      "relativePath": "_posts/随笔/拥抱生活，拥抱快乐.md",
-      "key": "v-0fabea38",
-      "path": "/pages/cd8bde/",
-      "excerpt": "<p>生活在后现代的今天，很多人都有一种虚无感，认为人生没有意义。但是，人生不可能没有意义，因为当你认为没有意义的时候，一定有一个与之相对应的概念叫有意义。</p>\n",
-      "lastUpdated": "2020/08/01, 14:31:12",
-      "lastUpdatedTimestamp": 1596263472000
-    },
-    {
-      "title": "你知道的越多，不知道的也就越多",
-      "frontmatter": {
-        "title": "你知道的越多，不知道的也就越多",
-        "date": "2020-05-06T15:52:40.000Z",
-        "permalink": "/pages/f2e63f",
-        "sidebar": "auto",
-        "categories": [
-          "随笔"
-        ],
-        "tags": [
-          "学习",
-          "知识",
-          "鸡汤"
-        ],
-        "author": {
-          "name": "xugaoyi",
-          "link": "https://github.com/xugaoyi"
-        }
-      },
-      "regularPath": "/_posts/%E9%9A%8F%E7%AC%94/%E4%BD%A0%E7%9F%A5%E9%81%93%E7%9A%84%E8%B6%8A%E5%A4%9A%EF%BC%8C%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E4%B9%9F%E5%B0%B1%E8%B6%8A%E5%A4%9A.html",
-      "relativePath": "_posts/随笔/你知道的越多，不知道的也就越多.md",
-      "key": "v-6a4b6be4",
-      "path": "/pages/f2e63f/",
-      "excerpt": "<p>不知道大家有没有发现，我们身边经常有这样的人，他们越是有能力的，越是有知识的，越是低调，越是谦逊，因为他们深知，知道的越多，不知道的也就越多。</p>\n",
-      "lastUpdated": "2021/05/03, 01:04:55",
-      "lastUpdatedTimestamp": 1619975095000
     },
     {
       "title": "Home",
@@ -1073,7 +1073,7 @@ export const siteData = {
     "tag": false,
     "archive": false,
     "bodyBgImg": [
-      "JBlog/img/mybg.jpg"
+      "https://jpypyj-img-1310948243.cos.ap-guangzhou.myqcloud.com/202301092055706.jpg"
     ],
     "bodyBgImgOpacity": 0.8,
     "defaultMode": "dark",
