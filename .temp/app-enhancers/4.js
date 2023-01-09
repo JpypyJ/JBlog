@@ -1,0 +1,1 @@
+export { default } from "D:\\GitHub\\vuepress-theme-vdoing\\node_modules\\vuepress-plugin-baidu-autopush\\enhanceAppFile.js"
